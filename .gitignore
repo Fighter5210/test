@@ -1,0 +1,71 @@
+# maven ignore
+target/
+
+# gradle ignore
+.gradle/
+out/
+build/
+gradle
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+classes/
+gradle/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log*
+*.cache
+*.diff
+*.patch
+*.tmp
+*.swp
+
+# system ignore
+.DS_Store
+Thumbs.db
+hs_err_pid*
+
+# gradle module ignore
+leo-*/*.ipr
+leo-*/*.iml
+leo-*/*.iws
+leo-*/.DS_Store
+leo-*/._.DS_Store
+leo-*/target/
+leo-*/*.swp
+leo-*/build/
+leo-*/.project
+leo-*/gradle
+leo-*/.classpath
+leo-*/.settings
+leo-*/*.log*
+leo-*/hs_err_pid*
+leo-*/classes/
+leo-*/Thumbs.db
+leo-*/logs/
+leo-*/repository/
+leo-*/uploads/
+leo-*/cache/
+
+logs/
+gradlew
+gradlew.bat
+leo-batch/gradlew
+leo-batch/gradlew.bat
+leo-controller/gradlew
+leo-controller/gradlew.bat
+leo-service/gradlew
+leo-service/gradlew.bat
+leo-sms/gradlew
+leo-sms/gradlew.bat
+git
+cache
+

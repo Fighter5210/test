@@ -168,15 +168,12 @@ public class Sm4Util {
 
     public static void main(String[] args) {
         try {
-            String phone = "15011350683";
-            String phone1 = "1";
+            String phone = "备注";
             long start = System.currentTimeMillis();
             System.out.println("start="+start);
             //加密
             String cipher = Sm4Util.encryptEcb(phone);
             System.out.println("加密结果："+cipher);
-            String cipher1 = Sm4Util.encryptEcb(phone1);
-            System.out.println("加密结果1："+cipher1);
             //验证
 //            System.out.println(Sm4Util.verifyEcb(cipher, json));// true
             //解密
